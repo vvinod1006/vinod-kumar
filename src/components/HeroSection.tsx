@@ -57,7 +57,7 @@ const HeroSection = () => {
           <div className="relative animate-slide-in">
             <div className="relative">
               <div className="w-80 h-80 lg:w-96 lg:h-96 mx-auto">
-                <img alt="V Vinod Kumar - UI/UX Designer & Web Developer" className="w-full h-full rounded-full object-cover border-4 border-white/20 shadow-2xl" src="/lovable-uploads/65bcace6-8cee-4d52-b435-8515c451d669.jpg" />
+                <img alt="V Vinod Kumar - UI/UX Designer & Web Developer" className="w-full h-full rounded-full object-cover border-4 border-white/20 shadow-2xl" src="/lovable-uploads/87c18ab5-47fc-40c3-b043-8a5f06797be0.jpg" />
               </div>
               
               {/* Floating elements */}
