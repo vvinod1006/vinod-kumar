@@ -68,8 +68,8 @@ const HeroSection = () => {
             <div className="relative">
               <div className="w-80 h-80 lg:w-96 lg:h-96 mx-auto">
                 <img 
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face&auto=format" 
-                  alt="V Vinod Kumar"
+                  src="https://cdn.corenexis.com/view/?img=d/ju16/dCj7lS.jpg" 
+                  alt="V Vinod Kumar - UI/UX Designer & Web Developer"
                   className="w-full h-full rounded-full object-cover border-4 border-white/20 shadow-2xl"
                 />
               </div>
