@@ -1,24 +1,23 @@
-
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-
 const HeroSection = () => {
   const scrollToProjects = () => {
     const element = document.getElementById('projects');
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({
+        behavior: 'smooth'
+      });
     }
   };
-
   const scrollToContact = () => {
     const element = document.getElementById('contact');
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({
+        behavior: 'smooth'
+      });
     }
   };
-
-  return (
-    <section id="home" className="min-h-screen bg-gradient-portfolio relative overflow-hidden">
+  return <section id="home" className="min-h-screen bg-gradient-portfolio relative overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute top-20 right-20 w-20 h-20 bg-white/10 rounded-full"></div>
       <div className="absolute bottom-32 left-16 w-16 h-16 bg-white/10 rounded-full"></div>
@@ -46,19 +45,10 @@ const HeroSection = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Button 
-                onClick={scrollToProjects}
-                size="lg"
-                className="bg-white text-purple-600 hover:bg-gray-100 transition-colors"
-              >
+              <Button onClick={scrollToProjects} size="lg" className="bg-white text-purple-600 hover:bg-gray-100 transition-colors">
                 View My Work
               </Button>
-              <Button 
-                onClick={scrollToContact}
-                size="lg"
-                variant="outline"
-                className="border-white text-white hover:bg-white/10 transition-colors"
-              >
+              <Button onClick={scrollToContact} size="lg" variant="outline" className="border-white text-white hover:bg-white/10 transition-colors">
                 Get In Touch
               </Button>
             </div>
@@ -67,11 +57,7 @@ const HeroSection = () => {
           <div className="relative animate-slide-in">
             <div className="relative">
               <div className="w-80 h-80 lg:w-96 lg:h-96 mx-auto">
-                <img 
-                  src="https://cdn.corenexis.com/view/?img=d/ju16/dCj7lS.jpg" 
-                  alt="V Vinod Kumar - UI/UX Designer & Web Developer"
-                  className="w-full h-full rounded-full object-cover border-4 border-white/20 shadow-2xl"
-                />
+                <img alt="V Vinod Kumar - UI/UX Designer & Web Developer" className="w-full h-full rounded-full object-cover border-4 border-white/20 shadow-2xl" src="/lovable-uploads/0fc566cd-15e9-4652-a06a-95eed5a11a93.jpg" />
               </div>
               
               {/* Floating elements */}
@@ -110,8 +96,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
