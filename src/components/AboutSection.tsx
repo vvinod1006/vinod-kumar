@@ -1,17 +1,11 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-
 const AboutSection = () => {
-  return (
-    <section id="about" className="py-20 bg-gray-50">
+  return <section id="about" className="py-20 bg-gray-50">
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="relative">
-            <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=600&fit=crop&crop=face&auto=format" 
-              alt="V Vinod Kumar - About"
-              className="w-full max-w-md mx-auto rounded-2xl shadow-2xl"
-            />
+            <img alt="V Vinod Kumar - About" className="w-full max-w-md mx-auto rounded-2xl shadow-2xl" src="/lovable-uploads/b332a3d6-eef2-4da3-b298-e7c0f28435d4.jpg" />
           </div>
           
           <div className="space-y-6">
@@ -78,8 +72,6 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default AboutSection;
