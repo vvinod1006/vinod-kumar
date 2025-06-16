@@ -11,9 +11,7 @@ const AboutSection = () => {
           <div className="space-y-6">
             <div>
               <h2 className="text-4xl font-bold text-gray-800 mb-4 font-poppins">About Me</h2>
-              <p className="text-lg text-gray-600 leading-relaxed">
-                I'm V Vinod Kumar, a passionate UI/UX Designer and Web Developer currently pursuing my B.Tech in Computer Science Engineering at Kuppam Engineering College. I specialize in creating responsive, user-friendly websites for local businesses using modern technologies and AI tools.
-              </p>
+              <p className="text-lg text-gray-600 leading-relaxed">I'm V Vinod Kumar, a passionate UI/UX Designer and Web Developer currently pursuing my B.Tech in Computer Science Engineering at Kuppam Engineering College. I specialize in creating responsive, user-friendly websites using modern technologies and AI tools.</p>
             </div>
             
             <div className="space-y-4">

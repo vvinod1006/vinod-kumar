@@ -39,10 +39,7 @@ const HeroSection = () => {
               UI/UX Designer & Web Developer
             </h2>
             
-            <p className="text-lg text-purple-100 max-w-lg leading-relaxed">
-              I'm passionate about creating user-friendly and modern websites using the latest technologies and AI tools. 
-              Currently pursuing B.Tech in CSE while building responsive websites for local businesses.
-            </p>
+            <p className="text-lg text-purple-100 max-w-lg leading-relaxed">I'm passionate about creating user-friendly and modern websites using the latest technologies and AI tools. Currently pursuing B.Tech in CSE while building responsive websites.</p>
             
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Button onClick={scrollToProjects} size="lg" className="bg-white text-purple-600 hover:bg-gray-100 transition-colors">
