@@ -1,17 +1,16 @@
 
 import { Card, CardContent } from '@/components/ui/card';
-import { Progress } from '@/components/ui/progress';
 
 const SkillsSection = () => {
   const skills = [
-    { name: 'HTML/CSS', level: 95, icon: '🌐' },
-    { name: 'JavaScript', level: 85, icon: '⚡' },
-    { name: 'Core Java', level: 80, icon: '☕' },
-    { name: 'SQL', level: 75, icon: '🗄️' },
-    { name: 'UI/UX Design', level: 90, icon: '🎨' },
-    { name: 'Figma', level: 88, icon: '🔧' },
-    { name: 'Responsive Design', level: 92, icon: '📱' },
-    { name: 'AI Tools', level: 85, icon: '🤖' }
+    { name: 'HTML/CSS', icon: '🌐' },
+    { name: 'JavaScript', icon: '⚡' },
+    { name: 'Core Java', icon: '☕' },
+    { name: 'SQL', icon: '🗄️' },
+    { name: 'UI/UX Design', icon: '🎨' },
+    { name: 'Figma', icon: '🔧' },
+    { name: 'Responsive Design', icon: '📱' },
+    { name: 'AI Tools', icon: '🤖' }
   ];
 
   const categories = [
@@ -63,12 +62,10 @@ const SkillsSection = () => {
           {skills.map((skill, index) => (
             <Card key={index} className="hover:shadow-lg transition-shadow">
               <CardContent className="p-6">
-                <div className="flex items-center mb-4">
+                <div className="flex items-center justify-center">
                   <span className="text-2xl mr-3">{skill.icon}</span>
                   <h3 className="font-semibold">{skill.name}</h3>
                 </div>
-                <Progress value={skill.level} className="mb-2" />
-                <span className="text-sm text-gray-600">{skill.level}%</span>
               </CardContent>
             </Card>
           ))}

@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
@@ -8,29 +7,25 @@ const ServicesSection = () => {
       title: 'Responsive Website Design',
       description: 'Custom responsive websites for local businesses that work perfectly on all devices. Built with modern technologies and optimized for performance.',
       features: ['Mobile-First Design', 'Cross-Browser Compatibility', 'SEO Optimized', 'Fast Loading'],
-      icon: '🌐',
-      price: 'Starting from ₹15,000'
+      icon: '🌐'
     },
     {
       title: 'UI/UX Design & Prototyping',
       description: 'User-centered design solutions using Figma. From wireframes to high-fidelity prototypes that enhance user experience.',
       features: ['User Research', 'Wireframing', 'Prototyping', 'Design Systems'],
-      icon: '🎨',
-      price: 'Starting from ₹8,000'
+      icon: '🎨'
     },
     {
       title: 'Web Application Development',
       description: 'Custom web applications using modern JavaScript and Java technologies. Scalable solutions for your business needs.',
       features: ['Frontend Development', 'Backend Integration', 'Database Design', 'API Development'],
-      icon: '⚡',
-      price: 'Starting from ₹25,000'
+      icon: '⚡'
     },
     {
       title: 'AI-Powered Design Solutions',
       description: 'Leverage cutting-edge AI tools to accelerate design and development processes while maintaining quality and creativity.',
       features: ['AI-Assisted Design', 'Automated Workflows', 'Smart Content Generation', 'Design Optimization'],
-      icon: '🤖',
-      price: 'Custom Pricing'
+      icon: '🤖'
     }
   ];
 
@@ -61,7 +56,6 @@ const ServicesSection = () => {
                     <CardTitle className="text-xl font-semibold text-gray-800 group-hover:text-portfolio-primary transition-colors">
                       {service.title}
                     </CardTitle>
-                    <p className="text-portfolio-primary font-semibold">{service.price}</p>
                   </div>
                 </div>
               </CardHeader>

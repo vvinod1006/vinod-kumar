@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 
@@ -13,10 +12,6 @@ const AboutSection = () => {
               alt="V Vinod Kumar - About"
               className="w-full max-w-md mx-auto rounded-2xl shadow-2xl"
             />
-            <div className="absolute -bottom-6 -right-6 bg-gradient-portfolio text-white p-6 rounded-2xl shadow-lg">
-              <div className="text-2xl font-bold">3+</div>
-              <div className="text-sm">Years Experience</div>
-            </div>
           </div>
           
           <div className="space-y-6">
